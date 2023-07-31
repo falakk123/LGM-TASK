@@ -1,0 +1,33 @@
+body {
+    font-family:  'bold';
+    background-color: rgba(77, 71, 71, 0.528);
+}
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(21, 21, 21, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+#preview-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+}
